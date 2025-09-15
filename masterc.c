@@ -15,7 +15,7 @@ volatile   while
 */
 #define PATH "C:\\Users\\orisa\\Documents\\newCode\\poseidon\\masterc.c"
 
-int main() {
+int main(int argc, char** argv) {
     printf("Hello, World!\n");
     printf("File path: %s\n", PATH);
     return 0;
