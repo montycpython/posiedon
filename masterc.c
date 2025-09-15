@@ -18,7 +18,9 @@ volatile   while
 int main(int argc, char** argv) {
     printf("Hello, World!\n");
     printf("File path: %s\n", PATH);
-    return 0;
+    puts("Hello, World using puts!");
+
+    return -1;
 }
 
 
